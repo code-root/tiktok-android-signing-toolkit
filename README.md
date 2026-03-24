@@ -5,6 +5,8 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-tiktok--android--signing--toolkit-181717?logo=github)](https://github.com/code-root/tiktok-android-signing-toolkit)
+[![Python CI](https://github.com/code-root/tiktok-android-signing-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/code-root/tiktok-android-signing-toolkit/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/code-root/tiktok-android-signing-toolkit/actions/workflows/codeql.yml/badge.svg)](https://github.com/code-root/tiktok-android-signing-toolkit/actions/workflows/codeql.yml)
 [![Tests](https://img.shields.io/badge/tests-test__all.py-lightgrey.svg)](tests/test_all.py)
 
 **Languages:** **English (this file, default)** | [العربية / Arabic](README.ar.md)
@@ -79,6 +81,7 @@ Optional test paths may import extra packages; see `tests/test_all.py` if import
 | **`ttk/paths.py`** | Defines `PROJECT_ROOT`, `FIXTURES_DIR`, `WORKSPACE_ROOT`, and **`resolve_data_path()`** (resolve relative paths against project root, then `fixtures/`). |
 | **`fixtures/`** | Shared device JSON: `device_v44_3_1.json`, examples (`*.example.json`), `devices_001.json`, … |
 | **`tests/`** | `test_all.py` — comprehensive test suite. |
+| **`.github/workflows/`** | **Python CI** (matrix 3.10–3.13, `pip` + `tests/test_all.py`) and **CodeQL** security analysis — same patterns GitHub suggests for this stack. |
 | **`docs/`** | Login-flow docs, analysis notes, implementation plans. |
 | **`tools/`** | Frida, JADX, Ghidra, APK/signature helpers, dump comparison. |
 | **Repository root** | Thin launchers: **`login_client.py`**, **`device_register.py`**, **`flow.py`**, **`mitm_raw.py`**, **`feed_api_client.py`**, **`fake_login_probe.py`** — each delegates to `python3 -m ttk.<module>`. |
@@ -672,6 +675,8 @@ python3 tests/test_all.py
 ```
 
 Covers signing, login helpers, device registration, JSON schema, and more. If **`login_sessions.json`** exists in the project root, extra session tests run; otherwise they are skipped (friendly for public clones).
+
+**CI:** On every push/PR to `main`, [Python CI](https://github.com/code-root/tiktok-android-signing-toolkit/actions/workflows/ci.yml) runs the same command on Ubuntu across Python 3.10–3.13. [CodeQL](https://github.com/code-root/tiktok-android-signing-toolkit/actions/workflows/codeql.yml) runs static analysis on the same triggers plus a weekly schedule.
 
 ---
 

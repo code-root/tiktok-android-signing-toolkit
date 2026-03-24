@@ -3,6 +3,8 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-tiktok--android--signing--toolkit-181717?logo=github)](https://github.com/code-root/tiktok-android-signing-toolkit)
+[![Python CI](https://github.com/code-root/tiktok-android-signing-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/code-root/tiktok-android-signing-toolkit/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/code-root/tiktok-android-signing-toolkit/actions/workflows/codeql.yml/badge.svg)](https://github.com/code-root/tiktok-android-signing-toolkit/actions/workflows/codeql.yml)
 [![Tests](https://img.shields.io/badge/tests-test__all.py-lightgrey.svg)](tests/test_all.py)
 
 **اسم مقترح للمستودع على GitHub:** `tiktok-android-signing-toolkit` — راجع [دليل النشر](docs/GITHUB_SETUP.md) للوصف، التاقات، والريليز.
@@ -80,6 +82,7 @@ pycryptodome>=3.20.0
 | **`ttk/paths.py`** | يحدد `PROJECT_ROOT`، `FIXTURES_DIR`، `WORKSPACE_ROOT`، ودالة **`resolve_data_path()`** لحل المسارات النسبية (جذر المشروع ثم `fixtures/`). |
 | **`fixtures/`** | ملفات JSON جاهزة للجهاز: `device_v44_3_1.json`، أمثلة (`*.example.json`)، `devices_001.json`، إلخ. |
 | **`tests/`** | `test_all.py` — مجموعة اختبارات شاملة. |
+| **`.github/workflows/`** | **Python CI** (مصفوفة 3.10–3.13، `pip` ثم `tests/test_all.py`) و**CodeQL** لتحليل أمني — نفس أنماط الـ workflows التي يقترحها GitHub لمكدس بايثون. |
 | **`docs/`** | توثيق تدفق اللوجن، تحليلات، خطط تنفيذ. |
 | **`tools/`** | سكربتات مساعدة: Frida، JADX، Ghidra، APK/sig، مقارنة dumps. |
 | **جذر المشروع** | ملفات رفيعة **`login_client.py`**, **`device_register.py`**, **`flow.py`**, **`mitm_raw.py`**, **`feed_api_client.py`**, **`fake_login_probe.py`** — كلها تستدعي الوحدة الحقيقية عبر `python3 -m ttk.<اسم>`. |
@@ -671,6 +674,8 @@ python3 tests/test_all.py
 
 - تغطي التوقيع، اللوجن، تسجيل الجهاز، المخطط JSON، وغيرها.
 - إن وُجد **`login_sessions.json`** في الجذر، تُشغَّل اختبارات إضافية؛ وإلا تُتخطى تلقائيًا (مناسب للمستودع العام).
+
+**التكامل المستمر (CI):** عند كل دفع أو PR إلى `main`، يشغّل [Python CI](https://github.com/code-root/tiktok-android-signing-toolkit/actions/workflows/ci.yml) نفس الأمر على Ubuntu مع إصدارات بايثون 3.10–3.13. يعمل [CodeQL](https://github.com/code-root/tiktok-android-signing-toolkit/actions/workflows/codeql.yml) تحليلًا ثابتًا على نفس المحفّزات بالإضافة إلى جدول أسبوعي.
 
 ---
 

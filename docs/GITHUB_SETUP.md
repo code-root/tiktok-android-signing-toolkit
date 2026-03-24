@@ -116,6 +116,25 @@ gh release create v1.0.0 --title "v1.0.0 — Initial public release" --notes-fil
 
 ---
 
+## Suggested workflows (tech stack)
+
+These match what GitHub recommends for a **Python** repository and are already in the tree:
+
+| Workflow | File | Purpose |
+|----------|------|---------|
+| **Python application / CI** | [`.github/workflows/ci.yml`](../.github/workflows/ci.yml) | `pip install -r requirements.txt`, then `python tests/test_all.py` on **Ubuntu**, matrix **Python 3.10–3.13**, `pip` cache. |
+| **CodeQL analysis** | [`.github/workflows/codeql.yml`](../.github/workflows/codeql.yml) | Security/static analysis for **Python** on push/PR to `main`, plus **weekly** schedule. |
+
+**Optional (not added by default):** enable from **Actions → New workflow** if you need them later:
+
+- **Pylint** — useful after you add a `pyproject.toml` / relaxed `.pylintrc` (this codebase is large for strict lint out of the box).
+- **Publish Python Package** — only if you publish `ttk` to PyPI.
+- **Dependency review** — mainly for PRs when you have a lockfile or many dependencies.
+
+README badges for **Python CI** and **CodeQL** point at the live workflow runs on the published repo.
+
+---
+
 ## README badges
 
-Published repository: [github.com/code-root/tiktok-android-signing-toolkit](https://github.com/code-root/tiktok-android-signing-toolkit). Optional: add a CI workflow badge later (e.g. GitHub Actions running `python3 tests/test_all.py`).
+Published repository: [github.com/code-root/tiktok-android-signing-toolkit](https://github.com/code-root/tiktok-android-signing-toolkit). CI and CodeQL status badges are in `README.md` / `README.ar.md`.
