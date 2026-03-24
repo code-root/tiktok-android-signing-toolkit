@@ -1,0 +1,396 @@
+{
+    "source": "/Users/mo/Documents/tiktok copy/device/devices_001.json",
+    "criteria": {
+      "err": 1105,
+      "dg": "0",
+      "verify_url": true,
+      "note": "Reached slider verify with device-guard accepted"
+    },
+    "count": 12,
+    "devices": [
+      {
+        "batch_index": 1,
+        "record": {
+          "generated_at": "2026-03-23T09:40:31.940908+00:00",
+          "network": {
+            "proxy_enabled": false
+          },
+          "input": {
+            "gentime_ms": "1774258831940",
+            "ud_id": "395427341865917",
+            "openudid": "cbb7b350d66aa5f6",
+            "mac_pattern": "25:3a:95:57:64:48",
+            "unidbg_message": "1774258831940 395427341865917 cbb7b350d66aa5f6 25:3a:95:57:64:48"
+          },
+          "status": "ok",
+          "http_status": 200,
+          "register_response": {
+            "server_time": 1774258834,
+            "device_id": 7620380796172011016,
+            "install_id": 7620383529029207816,
+            "new_user": 1,
+            "device_id_str": "7620380796172011016",
+            "install_id_str": "7620383529029207816"
+          },
+          "device_id": 7620380796172011016,
+          "install_id": 7620383529029207816,
+          "device_id_str": "7620380796172011016",
+          "install_id_str": "7620383529029207816",
+          "server_time": 1774258834,
+          "new_user": 1
+        }
+      },
+      {
+        "batch_index": 2,
+        "record": {
+          "generated_at": "2026-03-23T09:40:31.941371+00:00",
+          "network": {
+            "proxy_enabled": false
+          },
+          "input": {
+            "gentime_ms": "1774258831940",
+            "ud_id": "818679253861683",
+            "openudid": "59330b4adfa2a062",
+            "mac_pattern": "4a:44:62:25:87:85",
+            "unidbg_message": "1774258831940 818679253861683 59330b4adfa2a062 4a:44:62:25:87:85"
+          },
+          "status": "ok",
+          "http_status": 200,
+          "register_response": {
+            "server_time": 1774258834,
+            "device_id": 7620381222618826247,
+            "install_id": 7620383517193045768,
+            "new_user": 1,
+            "device_id_str": "7620381222618826247",
+            "install_id_str": "7620383517193045768"
+          },
+          "device_id": 7620381222618826247,
+          "install_id": 7620383517193045768,
+          "device_id_str": "7620381222618826247",
+          "install_id_str": "7620383517193045768",
+          "server_time": 1774258834,
+          "new_user": 1
+        }
+      },
+      {
+        "batch_index": 3,
+        "record": {
+          "generated_at": "2026-03-23T09:40:31.941958+00:00",
+          "network": {
+            "proxy_enabled": false
+          },
+          "input": {
+            "gentime_ms": "1774258831941",
+            "ud_id": "555421201336267",
+            "openudid": "610f8a98add1e636",
+            "mac_pattern": "63:51:57:87:63:36",
+            "unidbg_message": "1774258831941 555421201336267 610f8a98add1e636 63:51:57:87:63:36"
+          },
+          "status": "ok",
+          "http_status": 200,
+          "register_response": {
+            "server_time": 1774258834,
+            "device_id": 7620380425736160775,
+            "install_id": 7620383509148780295,
+            "new_user": 1,
+            "device_id_str": "7620380425736160775",
+            "install_id_str": "7620383509148780295"
+          },
+          "device_id": 7620380425736160775,
+          "install_id": 7620383509148780295,
+          "device_id_str": "7620380425736160775",
+          "install_id_str": "7620383509148780295",
+          "server_time": 1774258834,
+          "new_user": 1
+        }
+      },
+      {
+        "batch_index": 4,
+        "record": {
+          "generated_at": "2026-03-23T09:40:31.942104+00:00",
+          "network": {
+            "proxy_enabled": false
+          },
+          "input": {
+            "gentime_ms": "1774258831941",
+            "ud_id": "430796260264229",
+            "openudid": "eb755ae44b6bdee6",
+            "mac_pattern": "57:35:59:a4:47:a6",
+            "unidbg_message": "1774258831941 430796260264229 eb755ae44b6bdee6 57:35:59:a4:47:a6"
+          },
+          "status": "ok",
+          "http_status": 200,
+          "register_response": {
+            "server_time": 1774258834,
+            "device_id": 7620381228931335687,
+            "install_id": 7620383500022613768,
+            "new_user": 1,
+            "device_id_str": "7620381228931335687",
+            "install_id_str": "7620383500022613768"
+          },
+          "device_id": 7620381228931335687,
+          "install_id": 7620383500022613768,
+          "device_id_str": "7620381228931335687",
+          "install_id_str": "7620383500022613768",
+          "server_time": 1774258834,
+          "new_user": 1
+        }
+      },
+      {
+        "batch_index": 5,
+        "record": {
+          "generated_at": "2026-03-23T09:40:34.445645+00:00",
+          "network": {
+            "proxy_enabled": false
+          },
+          "input": {
+            "gentime_ms": "1774258834445",
+            "ud_id": "696986921210252",
+            "openudid": "7dd14eb5a41cae37",
+            "mac_pattern": "5a:24:77:46:91:23",
+            "unidbg_message": "1774258834445 696986921210252 7dd14eb5a41cae37 5a:24:77:46:91:23"
+          },
+          "status": "ok",
+          "http_status": 200,
+          "register_response": {
+            "server_time": 1774258836,
+            "device_id": 7620380516706223623,
+            "install_id": 7620383528953480978,
+            "new_user": 1,
+            "device_id_str": "7620380516706223623",
+            "install_id_str": "7620383528953480978"
+          },
+          "device_id": 7620380516706223623,
+          "install_id": 7620383528953480978,
+          "device_id_str": "7620380516706223623",
+          "install_id_str": "7620383528953480978",
+          "server_time": 1774258836,
+          "new_user": 1
+        }
+      },
+      {
+        "batch_index": 6,
+        "record": {
+          "generated_at": "2026-03-23T09:40:34.450780+00:00",
+          "network": {
+            "proxy_enabled": false
+          },
+          "input": {
+            "gentime_ms": "1774258834450",
+            "ud_id": "758691941381437",
+            "openudid": "20ed66e6f3ce1336",
+            "mac_pattern": "65:45:95:76:85:78",
+            "unidbg_message": "1774258834450 758691941381437 20ed66e6f3ce1336 65:45:95:76:85:78"
+          },
+          "status": "ok",
+          "http_status": 200,
+          "register_response": {
+            "server_time": 1774258836,
+            "device_id": 7620380583940277767,
+            "install_id": 7620383512634574599,
+            "new_user": 1,
+            "device_id_str": "7620380583940277767",
+            "install_id_str": "7620383512634574599"
+          },
+          "device_id": 7620380583940277767,
+          "install_id": 7620383512634574599,
+          "device_id_str": "7620380583940277767",
+          "install_id_str": "7620383512634574599",
+          "server_time": 1774258836,
+          "new_user": 1
+        }
+      },
+      {
+        "batch_index": 7,
+        "record": {
+          "generated_at": "2026-03-23T09:40:34.462143+00:00",
+          "network": {
+            "proxy_enabled": false
+          },
+          "input": {
+            "gentime_ms": "1774258834461",
+            "ud_id": "266213044500638",
+            "openudid": "0bb23001d9277c5f",
+            "mac_pattern": "79:94:44:93:95:54",
+            "unidbg_message": "1774258834461 266213044500638 0bb23001d9277c5f 79:94:44:93:95:54"
+          },
+          "status": "ok",
+          "http_status": 200,
+          "register_response": {
+            "server_time": 1774258836,
+            "device_id": 7620381341544105479,
+            "install_id": 7620383521224001298,
+            "new_user": 1,
+            "device_id_str": "7620381341544105479",
+            "install_id_str": "7620383521224001298"
+          },
+          "device_id": 7620381341544105479,
+          "install_id": 7620383521224001298,
+          "device_id_str": "7620381341544105479",
+          "install_id_str": "7620383521224001298",
+          "server_time": 1774258836,
+          "new_user": 1
+        }
+      },
+      {
+        "batch_index": 8,
+        "record": {
+          "generated_at": "2026-03-23T09:40:34.495558+00:00",
+          "network": {
+            "proxy_enabled": false
+          },
+          "input": {
+            "gentime_ms": "1774258834495",
+            "ud_id": "634186094120306",
+            "openudid": "82cec0133b4ee6f0",
+            "mac_pattern": "73:43:32:82:33:15",
+            "unidbg_message": "1774258834495 634186094120306 82cec0133b4ee6f0 73:43:32:82:33:15"
+          },
+          "status": "ok",
+          "http_status": 200,
+          "register_response": {
+            "server_time": 1774258836,
+            "device_id": 7620380580538795528,
+            "install_id": 7620383538378442514,
+            "new_user": 1,
+            "device_id_str": "7620380580538795528",
+            "install_id_str": "7620383538378442514"
+          },
+          "device_id": 7620380580538795528,
+          "install_id": 7620383538378442514,
+          "device_id_str": "7620380580538795528",
+          "install_id_str": "7620383538378442514",
+          "server_time": 1774258836,
+          "new_user": 1
+        }
+      },
+      {
+        "batch_index": 9,
+        "record": {
+          "generated_at": "2026-03-23T09:40:36.946100+00:00",
+          "network": {
+            "proxy_enabled": false
+          },
+          "input": {
+            "gentime_ms": "1774258836945",
+            "ud_id": "541185400814353",
+            "openudid": "69834db9ff0dedd1",
+            "mac_pattern": "28:49:55:69:18:91",
+            "unidbg_message": "1774258836945 541185400814353 69834db9ff0dedd1 28:49:55:69:18:91"
+          },
+          "status": "ok",
+          "http_status": 200,
+          "register_response": {
+            "server_time": 1774258839,
+            "device_id": 7620381027415967250,
+            "install_id": 7620383518430824199,
+            "new_user": 1,
+            "device_id_str": "7620381027415967250",
+            "install_id_str": "7620383518430824199"
+          },
+          "device_id": 7620381027415967250,
+          "install_id": 7620383518430824199,
+          "device_id_str": "7620381027415967250",
+          "install_id_str": "7620383518430824199",
+          "server_time": 1774258839,
+          "new_user": 1
+        }
+      },
+      {
+        "batch_index": 10,
+        "record": {
+          "generated_at": "2026-03-23T09:40:36.954822+00:00",
+          "network": {
+            "proxy_enabled": false
+          },
+          "input": {
+            "gentime_ms": "1774258836954",
+            "ud_id": "238322500454311",
+            "openudid": "cab8ada6f307f8fe",
+            "mac_pattern": "75:21:46:13:8a:43",
+            "unidbg_message": "1774258836954 238322500454311 cab8ada6f307f8fe 75:21:46:13:8a:43"
+          },
+          "status": "ok",
+          "http_status": 200,
+          "register_response": {
+            "server_time": 1774258839,
+            "device_id": 7620381027415950866,
+            "install_id": 7620383527813940999,
+            "new_user": 1,
+            "device_id_str": "7620381027415950866",
+            "install_id_str": "7620383527813940999"
+          },
+          "device_id": 7620381027415950866,
+          "install_id": 7620383527813940999,
+          "device_id_str": "7620381027415950866",
+          "install_id_str": "7620383527813940999",
+          "server_time": 1774258839,
+          "new_user": 1
+        }
+      },
+      {
+        "batch_index": 11,
+        "record": {
+          "generated_at": "2026-03-23T09:40:36.964101+00:00",
+          "network": {
+            "proxy_enabled": false
+          },
+          "input": {
+            "gentime_ms": "1774258836963",
+            "ud_id": "802359128855897",
+            "openudid": "d68cbf073699c414",
+            "mac_pattern": "29:92:16:14:3a:62",
+            "unidbg_message": "1774258836963 802359128855897 d68cbf073699c414 29:92:16:14:3a:62"
+          },
+          "status": "ok",
+          "http_status": 200,
+          "register_response": {
+            "server_time": 1774258839,
+            "device_id": 7620380452629710344,
+            "install_id": 7620383529030354696,
+            "new_user": 1,
+            "device_id_str": "7620380452629710344",
+            "install_id_str": "7620383529030354696"
+          },
+          "device_id": 7620380452629710344,
+          "install_id": 7620383529030354696,
+          "device_id_str": "7620380452629710344",
+          "install_id_str": "7620383529030354696",
+          "server_time": 1774258839,
+          "new_user": 1
+        }
+      },
+      {
+        "batch_index": 12,
+        "record": {
+          "generated_at": "2026-03-23T09:40:36.995625+00:00",
+          "network": {
+            "proxy_enabled": false
+          },
+          "input": {
+            "gentime_ms": "1774258836995",
+            "ud_id": "259372504730480",
+            "openudid": "74cd7f049d263eda",
+            "mac_pattern": "31:15:a5:88:79:23",
+            "unidbg_message": "1774258836995 259372504730480 74cd7f049d263eda 31:15:a5:88:79:23"
+          },
+          "status": "ok",
+          "http_status": 200,
+          "register_response": {
+            "server_time": 1774258839,
+            "device_id": 7620380772453172744,
+            "install_id": 7620383522679473938,
+            "new_user": 1,
+            "device_id_str": "7620380772453172744",
+            "install_id_str": "7620383522679473938"
+          },
+          "device_id": 7620380772453172744,
+          "install_id": 7620383522679473938,
+          "device_id_str": "7620380772453172744",
+          "install_id_str": "7620383522679473938",
+          "server_time": 1774258839,
+          "new_user": 1
+        }
+      }
+    ]
+  }

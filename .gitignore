@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+
+# Secrets & proxies
+.env
+*.pem
+proxsy.txt
+login_sessions.json
+
+# Local / generated device & capture files
+my_device.json
+device_fresh.json
+device_mitm*.json
+device_emulator*.json
+captured_*.json
+login_flow_captured_values.json
+batch_*.json
+
+# Golden / replay dumps (large; regenerate locally)
+golden_out/
+
+# Generated virtual device DB (optional)
+fixtures/virtual_devices.json
+
+# Editor / OS
+.DS_Store
+*.code-workspace
+Untitled-*
+
+# Tool output
+tools/captured_signs.json
+tools/ghidra_report.json

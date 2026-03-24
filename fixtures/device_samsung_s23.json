@@ -1,0 +1,71 @@
+{
+  "_comment": "Samsung Galaxy S23 (SM-S911B) — real device fingerprint for TikTok v44.3.1 registration",
+  "meta": {
+    "version": "44.3.1",
+    "version_code": "440301",
+    "manifest_version_code": "2024403010",
+    "update_version_code": "2024403010",
+    "ab_version": "44.3.1",
+    "build_number": "44.3.1",
+    "display_name": "TikTok",
+    "app_version_minor": "0"
+  },
+  "device": {
+    "device_id": "0",
+    "iid": "0",
+    "openudid": "a3f2b1c4d5e6f708",
+    "cdid": "b2c3d4e5-f6a7-8901-bcde-f01234567890",
+    "device_type": "SM-S911B",
+    "device_brand": "samsung",
+    "device_manufacturer": "samsung",
+    "os_version": "14",
+    "os_api": "34",
+    "resolution": "2340*1080",
+    "dpi": "480",
+    "host_abi": "arm64-v8a",
+    "build_fingerprint": "S911BXXU6EXI1",
+    "is_pad": "0"
+  },
+  "app": {
+    "app_name": "musical_ly",
+    "package": "com.zhiliaoapp.musically",
+    "aid": "1233",
+    "channel": "googleplay",
+    "ssmix": "a",
+    "app_type": "normal",
+    "support_webview": "1"
+  },
+  "network": {
+    "ac": "wifi",
+    "ac2": "wifi",
+    "mcc_mnc": "310260",
+    "carrier_region": "US",
+    "carrier_region_v2": "310"
+  },
+  "locale": {
+    "timezone_name": "America/New_York",
+    "timezone_offset": "-18000",
+    "language": "en",
+    "locale": "en",
+    "app_language": "en",
+    "sys_region": "US",
+    "region": "US",
+    "op_region": "US",
+    "uoo": "0"
+  },
+  "device_register": {
+    "applog_sdk_version": "2.15.0",
+    "applog_sdk_version_code": "2150",
+    "git_hash": "45656ae",
+    "sdk_target_version": 29,
+    "release_build": "44.3.1",
+    "include_event_filter": true,
+    "sig_hash": "a741607eceefe76570bb2035e3d2beab"
+  },
+  "user_agent": "com.zhiliaoapp.musically/2024403010 (Linux; U; Android 14; en; SM-S911B; Build/TP1A.220624.014; Cronet/TTNetVersion:80a1e1d9 2026-01-21 QuicVersion:5f252c33 2025-12-30)",
+  "session": {
+    "cookie": "store-idc=alisg; tt-target-idc=alisg",
+    "last_install_time": "0",
+    "x_tt_token": ""
+  }
+}

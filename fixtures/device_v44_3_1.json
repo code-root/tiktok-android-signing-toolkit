@@ -1,0 +1,95 @@
+{
+  "_comment": "Virtual device profile — TikTok v44.3.15 Android (updated 2026-03-23 from MITM capture)",
+  "meta": {
+    "version": "44.3.15",
+    "version_code": "440315",
+    "manifest_version_code": "2024403150",
+    "update_version_code": "2024403150",
+    "ab_version": "44.3.15",
+    "build_number": "44.3.15",
+    "sig_hash": "194326e82c84a639a52e5c023116f12a",
+    "git_hash": "5ae517f",
+    "sdk_version": "2.5.14.3",
+    "sdk_version_code": 205140390,
+    "rom": "S916BXXS4CXD4",
+    "rom_version": "samsung/dm3qxxx/dm3q:14/UP1A.231005.007/S916BXXS4CXD4:user/release-keys",
+    "build_id": "UP1A.231005.007",
+    "release_build": "b2a796d_20260312",
+    "ram_size": "8GB",
+    "source_capture": "Raw_03-23-2026-14-39-43.folder",
+    "captured_at": 1774269206,
+    "captured_date": "2026-03-23T12:33:26Z"
+  },
+  "device": {
+    "device_id": "7618686830888125966",
+    "iid": "7619342647853074190",
+    "openudid": "5aeca2e40e7e5cf2",
+    "cdid": "f8741d6d-78c5-4d95-983c-54ef73e284f7",
+    "clientudid": "a041f068-1eb3-41b8-8442-0d92622d4b4d",
+    "google_aid": "563177c5-b796-4fec-a2c4-681bab7b5838",
+    "device_type": "SM-S916B",
+    "device_brand": "samsung",
+    "device_manufacturer": "samsung",
+    "os_version": "14",
+    "os_api": "34",
+    "resolution": "1080*2340",
+    "dpi": "393",
+    "host_abi": "arm64-v8a",
+    "build_fingerprint": "UP1A.231005.007",
+    "is_pad": "0"
+  },
+  "app": {
+    "app_name": "musical_ly",
+    "package": "com.zhiliaoapp.musically",
+    "aid": "1233",
+    "channel": "googleplay",
+    "ssmix": "a",
+    "app_type": "normal",
+    "support_webview": "1"
+  },
+  "network": {
+    "ac": "wifi",
+    "ac2": "wifi",
+    "mcc_mnc": "310260",
+    "carrier_region": "US",
+    "carrier_region_v2": "310",
+    "sim_region": "us",
+    "carrier": "T-Mobile"
+  },
+  "locale": {
+    "timezone_name": "America/New_York",
+    "timezone_offset": "-18000",
+    "language": "en",
+    "locale": "en",
+    "app_language": "en",
+    "sys_region": "US",
+    "region": "US",
+    "op_region": "US",
+    "uoo": "0"
+  },
+  "user_agent": "com.zhiliaoapp.musically/2024403150 (Linux; U; Android 14; en_US; SM-S916B; Build/UP1A.231005.007; Cronet/TTNetVersion:80a1e1d9 2026-01-21 QuicVersion:5f252c33 2025-12-30)",
+  "passport_headers": {
+    "_comment": "اختياري: طابق اعتراض Raw_03-23 إن لزم (مثال من طلب login حقيقي)",
+    "x-tt-dm-status": "login=0;ct=0;rt=7"
+  },
+  "session": {
+    "cookie": "store-idc=useast5; store-country-code=us; store-country-code-src=did; tt-target-idc=useast8; install_id=7619342647853074190; odin_tt=a37a4a808da8f2b4252ab4686422b00df7607e1b3430357fedad6b62f5b35a4b3f9eab9a9cc7f57c8baa5efc22763f36ca2aa519abb21478530e93e0959b97c74923179cec4b11be03fdf79837e1def4",
+    "last_install_time": "1774016458",
+    "x_tt_token": "",
+    "session_key": ""
+  },
+  "guard_keys": {
+    "_comment": "EC P-256 key pair for device/ticket guard signing (device_guard.py). Replace with your own key pair from device registration.",
+    "private_pem": "-----BEGIN PRIVATE KEY-----\nMIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgnAx7s/V0rx2n50cu\nIR/1ZABxVzkgBVSrQ2mCWWr2FDGhRANCAAQi9nt0M3mShikB3v0Jff1Vktf+u9dR\nYtbW10ucqg6j0NdN4NzTC0AzwSlqGWqc+3Td7sWHgjRLqaecwXJppxo9\n-----END PRIVATE KEY-----",
+    "public_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIvZ7dDN5koYpAd79CX39VZLX/rvX\nUWLW1tdLnKoOo9DXTeDc0wtAM8EpahlqnPt03e7Fh4I0S6mnnMFyaacaPQ==\n-----END PUBLIC KEY-----",
+    "tt_ticket_guard_public_key": "BCL2e3QzeZKGKQHe/Ql9/VWS1/6711Fi1tbXS5yqDqPQ103g3NMLQDPBKWoZapz7dN3uxYeCNEupp5zBcmmnGj0="
+  },
+  "guard_headers": {
+    "_comment": "Static fallback used only if guard_keys.private_pem is missing (no dynamic signing).",
+    "tt-ticket-guard-public-key": "BCL2e3QzeZKGKQHe/Ql9/VWS1/6711Fi1tbXS5yqDqPQ103g3NMLQDPBKWoZapz7dN3uxYeCNEupp5zBcmmnGj0=",
+    "tt-ticket-guard-iteration-version": "0",
+    "tt-ticket-guard-version": "3",
+    "tt-device-guard-iteration-version": "1",
+    "tt-device-guard-client-data": ""
+  }
+}

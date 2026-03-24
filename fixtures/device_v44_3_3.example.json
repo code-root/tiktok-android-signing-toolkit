@@ -1,0 +1,71 @@
+{
+  "_comment": "From com.zhiliaoapp.musically_44.3.3-2024403030_*.apkm base.apk — sig_hash + cert SHA-1/256 verified vs APKMirror listing.",
+  "meta": {
+    "version": "44.3.3",
+    "version_code": "2024403030",
+    "manifest_version_code": "2024403030",
+    "update_version_code": "2024403030",
+    "ab_version": "44.3.3",
+    "build_number": "44.3.3",
+    "source_capture": "apkmirror_bundle_44.3.3",
+    "captured_at": 0,
+    "captured_date": ""
+  },
+  "device": {
+    "device_id": "0",
+    "iid": "0",
+    "openudid": "REPLACE_OPENUDID_16HEX",
+    "cdid": "REPLACE_UUID_V4",
+    "device_type": "sdk_gphone64_arm64",
+    "device_brand": "google",
+    "device_manufacturer": "Google",
+    "os_version": "16",
+    "os_api": "36",
+    "resolution": "1440*3120",
+    "dpi": "560",
+    "host_abi": "arm64-v8a",
+    "build_fingerprint": "BE2A.250530.026.F3",
+    "is_pad": "0"
+  },
+  "app": {
+    "app_name": "musical_ly",
+    "package": "com.zhiliaoapp.musically",
+    "aid": "1233",
+    "channel": "googleplay",
+    "ssmix": "a",
+    "app_type": "normal",
+    "support_webview": "1"
+  },
+  "network": {
+    "ac": "wifi",
+    "ac2": "wifi",
+    "mcc_mnc": "310260",
+    "carrier_region": "US",
+    "carrier_region_v2": "310"
+  },
+  "locale": {
+    "timezone_name": "America/New_York",
+    "timezone_offset": "-18000",
+    "language": "en",
+    "locale": "en",
+    "app_language": "en",
+    "sys_region": "US",
+    "region": "US",
+    "op_region": "US",
+    "uoo": "0"
+  },
+  "device_register": {
+    "applog_sdk_version": "2.15.0",
+    "applog_sdk_version_code": "2150",
+    "git_hash": "b559b27",
+    "sdk_target_version": 29,
+    "sig_hash": "734101d055a08cd9213f64c52382d911"
+  },
+  "user_agent": "com.zhiliaoapp.musically/2024403030 (Linux; U; Android 16; en; sdk_gphone64_arm64; Build/BE2A.250530.026.F3; Cronet/TTNetVersion:80a1e1d9 2026-01-21 QuicVersion:5f252c33 2025-12-30)",
+  "session": {
+    "cookie": "",
+    "last_install_time": "0",
+    "x_tt_token": ""
+  },
+  "guard_headers": {}
+}

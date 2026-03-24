@@ -1,0 +1,86 @@
+{
+  "_comment": "TikTok Lite (com.zhiliaoapp.musically.go) — paste git_hash, release_build from the SAME APK; sig_hash: python3 device_register.py --base device_lite_go.example.json --apk /path/base.apk --extract-sig-only --out device_with_sig.json",
+  "meta": {
+    "version": "16.9.4",
+    "version_code": "1690400",
+    "manifest_version_code": "1690400",
+    "update_version_code": "1690400",
+    "ab_version": "16.9.4",
+    "build_number": "16.9.4",
+    "source_capture": "lite_go_template",
+    "captured_at": 0,
+    "captured_date": ""
+  },
+  "device": {
+    "device_id": "0",
+    "iid": "0",
+    "openudid": "",
+    "cdid": "",
+    "device_type": "SM-G9550",
+    "device_brand": "samsung",
+    "device_manufacturer": "samsung",
+    "os_version": "7.1.2",
+    "os_api": "25",
+    "resolution": "900*1600",
+    "dpi": "320",
+    "host_abi": "armeabi-v7a",
+    "build_fingerprint": "samsung/beyond1qlteue/beyond1q:7.1.2/PPR1.190810.011/G9550 release-keys",
+    "is_pad": "0",
+    "rom": "G9550"
+  },
+  "app": {
+    "app_name": "musically_go",
+    "package": "com.zhiliaoapp.musically.go",
+    "aid": "1340",
+    "channel": "googleplay",
+    "ssmix": "a",
+    "app_type": "normal",
+    "support_webview": "1"
+  },
+  "network": {
+    "ac": "wifi",
+    "ac2": "wifi",
+    "mcc_mnc": "31002",
+    "carrier_region": "IE",
+    "carrier_region_v2": "310"
+  },
+  "locale": {
+    "timezone_name": "Africa/Harare",
+    "timezone_offset": "7200",
+    "language": "en",
+    "locale": "en",
+    "app_language": "en",
+    "sys_region": "US",
+    "region": "US",
+    "op_region": "IE",
+    "uoo": "0"
+  },
+  "device_register": {
+    "applog_sdk_version": "2.12.1-rc.6-lite",
+    "applog_sdk_version_code": "2121",
+    "git_hash": "REPLACE_FROM_APK_OR_CAPTURE",
+    "sdk_target_version": 29,
+    "display_name": "TikTok Lite",
+    "release_build": "REPLACE_FROM_APK_OR_CAPTURE",
+    "sig_hash": "REPLACE_FROM_APK_OR_CAPTURE",
+    "app_version_minor": "",
+    "include_event_filter": false,
+    "new_user_mode": null,
+    "header_extras": {
+      "gaid_limited": 0,
+      "sdk_flavor": "global",
+      "is_system_app": 0,
+      "oaid_may_support": false,
+      "sim_region": "IE",
+      "req_id": "REPLACE_UUID_V4",
+      "apk_first_install_time": 0
+    }
+  },
+  "user_agent": "com.zhiliaoapp.musically.go/1690400 (Linux; U; Android 7.1.2; en; SM-G9550; Build/PPR1.190810.011)",
+  "session": {
+    "cookie": "store-idc=useast5; tt-target-idc=useast5",
+    "last_install_time": "0",
+    "x_tt_token": ""
+  },
+  "guard_headers": {}
+}
