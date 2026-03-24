@@ -4,9 +4,8 @@
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GitHub](https://img.shields.io/badge/GitHub-tiktok--android--signing--toolkit-181717?logo=github)](https://github.com/code-root/tiktok-android-signing-toolkit)
 [![Tests](https://img.shields.io/badge/tests-test__all.py-lightgrey.svg)](tests/test_all.py)
-
-> **Badges:** After you create the repo, you can add live CI badges by replacing `YOUR_USER` / `YOUR_REPO` in [docs/GITHUB_SETUP.md](docs/GITHUB_SETUP.md) and pasting shields that point to your GitHub username and repository name.
 
 **Languages:** **English (this file, default)** | [العربية / Arabic](README.ar.md)
 

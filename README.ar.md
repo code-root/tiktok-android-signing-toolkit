@@ -2,6 +2,7 @@
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GitHub](https://img.shields.io/badge/GitHub-tiktok--android--signing--toolkit-181717?logo=github)](https://github.com/code-root/tiktok-android-signing-toolkit)
 [![Tests](https://img.shields.io/badge/tests-test__all.py-lightgrey.svg)](tests/test_all.py)
 
 **اسم مقترح للمستودع على GitHub:** `tiktok-android-signing-toolkit` — راجع [دليل النشر](docs/GITHUB_SETUP.md) للوصف، التاقات، والريليز.

@@ -118,4 +118,4 @@ gh release create v1.0.0 --title "v1.0.0 — Initial public release" --notes-fil
 
 ## README badges
 
-After the repo exists, replace `YOUR_USER` / `YOUR_REPO` in `README.md` badge URLs with your GitHub username and repository name so the shields point to the real project.
+Published repository: [github.com/code-root/tiktok-android-signing-toolkit](https://github.com/code-root/tiktok-android-signing-toolkit). Optional: add a CI workflow badge later (e.g. GitHub Actions running `python3 tests/test_all.py`).
