@@ -18,16 +18,16 @@
 
 **هذا المستودع العام نسخة بحثية/توثيقية فقط.** وهو **ليس** النظام الإنتاجي الكامل.
 
-### النسخة الكاملة (تعمل على Redmi / Xiaomi)
+### النسخة الكاملة — رابط الشراء
 
-حزمة **ttkit_clean الكاملة** — النسخة المدفوعة المختبرة على أجهزة **ريدمي / شاومي** — تُشترى من Strong Studio:
+حزمة **ttkit_clean الكاملة** (النظام المدفوع الكامل) تُشترى من Strong Studio:
 
 | | |
 |--|--|
 | **شراء النسخة الكاملة (عربي)** | [strong-pnd.com/ar/strong-studio/ttkit-clean-tiktok-automation](https://strong-pnd.com/ar/strong-studio/ttkit-clean-tiktok-automation) |
 | **Buy the full version (EN)** | [strong-pnd.com/en/strong-studio/ttkit-clean-tiktok-automation](https://strong-pnd.com/en/strong-studio/ttkit-clean-tiktok-automation) |
 
-[![شراء ttkit_clean — النسخة الكاملة](https://img.shields.io/badge/شراء%20النسخة%20الكاملة-ttkit__clean%20·%20Redmi-FF4500?style=for-the-badge)](https://strong-pnd.com/ar/strong-studio/ttkit-clean-tiktok-automation)
+[![شراء ttkit_clean — النسخة الكاملة](https://img.shields.io/badge/شراء%20النسخة%20الكاملة-ttkit__clean-FF4500?style=for-the-badge)](https://strong-pnd.com/ar/strong-studio/ttkit-clean-tiktok-automation)
 
 **مصدر البيانات المرجعية (مثال من المشروع):** مجلد التقاط `Raw_03-17-2026-03-58-36.folder`  
 **تطبيق:** `com.zhiliaoapp.musically` — إصدارات مطابقة لـ v44.3.x (مثل 440301 / 440315) · Android
@@ -36,7 +36,7 @@
 
 ## جدول المحتويات 📑
 
-1. [النسخة الكاملة (Redmi / Xiaomi)](#النسخة-الكاملة-تعمل-على-redmi--xiaomi)
+1. [النسخة الكاملة — رابط الشراء](#النسخة-الكاملة--رابط-الشراء)
 2. [متطلبات التشغيل](#متطلبات-التشغيل)
 3. [التثبيت](#التثبيت)
 4. [هيكل المشروع](#هيكل-المشروع)
@@ -746,7 +746,7 @@ python3 tests/test_all.py
 
 مشروع **tiktok_final** هنا مرتكز على **التوقيع بايثون (`ttk/signing_engine`)** و**`login_client`** ومسار **`device_register`** الموثّق. **TikTokDeviceGenerator** خيار عملي عندما تريد **GUI + unidbg** لتوليد أجهزة بالجملة؛ يمكن دمج مخرجات JSON مع **`login_client --device …`** هنا إذا تطابقت الحقول (راجع التوافق قبل الاستخدام الجاد).
 
-النظام الإنتاجي الكامل (بما فيه البناء الذي يعمل على **ريدمي / شاومي**) هو **[ttkit_clean على Strong Studio](https://strong-pnd.com/ar/strong-studio/ttkit-clean-tiktok-automation)**.
+النظام الإنتاجي الكامل هو **[ttkit_clean على Strong Studio](https://strong-pnd.com/ar/strong-studio/ttkit-clean-tiktok-automation)**.
 
 > استخدم أي أداة خارجية وفق القوانين وشروط خدمة TikTok.
 

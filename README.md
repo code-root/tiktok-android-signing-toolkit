@@ -17,16 +17,16 @@ A **research and reverse-engineering** Python toolkit derived from analysis of t
 
 **This public repo is the research / documentation toolkit only.** It is **not** the complete production system.
 
-### Full version (works on Redmi / Xiaomi)
+### Full version — buy here
 
-The **full ttkit_clean** package — the paid version tested on **Redmi / Xiaomi** — is sold on Strong Studio:
+The **full ttkit_clean** package (the complete paid system) is sold on Strong Studio:
 
 | | |
 |--|--|
 | **Buy the full version (EN)** | [strong-pnd.com/en/strong-studio/ttkit-clean-tiktok-automation](https://strong-pnd.com/en/strong-studio/ttkit-clean-tiktok-automation) |
 | **شراء النسخة الكاملة (AR)** | [strong-pnd.com/ar/strong-studio/ttkit-clean-tiktok-automation](https://strong-pnd.com/ar/strong-studio/ttkit-clean-tiktok-automation) |
 
-[![Buy ttkit_clean — full version](https://img.shields.io/badge/Buy%20full%20version-ttkit__clean%20·%20Redmi-FF4500?style=for-the-badge)](https://strong-pnd.com/en/strong-studio/ttkit-clean-tiktok-automation)
+[![Buy ttkit_clean — full version](https://img.shields.io/badge/Buy%20full%20version-ttkit__clean-FF4500?style=for-the-badge)](https://strong-pnd.com/en/strong-studio/ttkit-clean-tiktok-automation)
 
 **Reference capture (example):** `Raw_03-17-2026-03-58-36.folder`  
 **App:** `com.zhiliaoapp.musically` — aligned with v44.3.x builds (e.g. 440301 / 440315) · Android
@@ -35,7 +35,7 @@ The **full ttkit_clean** package — the paid version tested on **Redmi / Xiaomi
 
 ## Table of contents 📑
 
-1. [Full version (Redmi / Xiaomi)](#full-version-works-on-redmi--xiaomi)
+1. [Full version — buy here](#full-version--buy-here)
 2. [Requirements](#requirements)
 3. [Installation](#installation)
 4. [Project layout](#project-layout)
@@ -744,7 +744,7 @@ See **`.gitignore`** for the current list.
 
 This **tiktok_final** repo stays centered on **Python signing (`ttk/signing_engine`)**, **`login_client`**, and **documented** `device_register` flows. **TikTokDeviceGenerator** is a practical option when you want a **GUI + unidbg** path for bulk device creation; combine its JSON output with **`login_client --device …`** here if the profile shape is compatible (validate fields before production use).
 
-The **full production pipeline** (including the Redmi / Xiaomi build) is **[ttkit_clean on Strong Studio](https://strong-pnd.com/en/strong-studio/ttkit-clean-tiktok-automation)**.
+The **full production pipeline** is **[ttkit_clean on Strong Studio](https://strong-pnd.com/en/strong-studio/ttkit-clean-tiktok-automation)**.
 
 > Use any third-party tool only in compliance with applicable laws and TikTok’s Terms of Service.
 
