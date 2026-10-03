@@ -15,6 +15,19 @@ A **research and reverse-engineering** Python toolkit derived from analysis of t
 
 > **Warning:** Using these tools against TikTok servers or third-party accounts may violate Terms of Service and local laws. You are responsible for your use.
 
+**This public repo is the research / documentation toolkit only.** It is **not** the complete production system.
+
+### Full version (works on Redmi / Xiaomi)
+
+The **full ttkit_clean** package — the paid version tested on **Redmi / Xiaomi** — is sold on Strong Studio:
+
+| | |
+|--|--|
+| **Buy the full version (EN)** | [strong-pnd.com/en/strong-studio/ttkit-clean-tiktok-automation](https://strong-pnd.com/en/strong-studio/ttkit-clean-tiktok-automation) |
+| **شراء النسخة الكاملة (AR)** | [strong-pnd.com/ar/strong-studio/ttkit-clean-tiktok-automation](https://strong-pnd.com/ar/strong-studio/ttkit-clean-tiktok-automation) |
+
+[![Buy ttkit_clean — full version](https://img.shields.io/badge/Buy%20full%20version-ttkit__clean%20·%20Redmi-FF4500?style=for-the-badge)](https://strong-pnd.com/en/strong-studio/ttkit-clean-tiktok-automation)
+
 **Reference capture (example):** `Raw_03-17-2026-03-58-36.folder`  
 **App:** `com.zhiliaoapp.musically` — aligned with v44.3.x builds (e.g. 440301 / 440315) · Android
 
@@ -22,28 +35,29 @@ A **research and reverse-engineering** Python toolkit derived from analysis of t
 
 ## Table of contents 📑
 
-1. [Requirements](#requirements)
-2. [Installation](#installation)
-3. [Project layout](#project-layout)
-4. [Where to run commands](#where-to-run-commands)
-5. [Quick start](#quick-start)
-6. [Command-line tools (reference)](#command-line-tools-reference)
-7. [Environment variables](#environment-variables)
-8. [Python library usage](#python-library-usage)
-9. [Login body password encoding](#login-body-password-encoding)
-10. [Signing headers (overview)](#signing-headers-overview)
-11. [Signing pipeline — `sign()`](#signing-pipeline) (includes [extended walkthrough](#signing-extended-walkthrough))
-12. [Device identifiers](#device-identifiers)
-13. [Login flow (simplified)](#login-flow-simplified)
-14. [Common error codes](#common-error-codes)
-15. [Tests](#tests)
-16. [`tools/` directory](#tools-directory)
-17. [`docs/` directory](#docs-directory)
-18. [Sensitive files & `.gitignore`](#sensitive-files--gitignore)
-19. [Related project: TikTokDeviceGenerator](#related-project-tiktokdevicegenerator)
-20. [Technical references](#technical-references)
-21. [Maintainer, company & contact](#maintainer-company--contact)
-22. [Support this project](#support-this-project)
+1. [Full version (Redmi / Xiaomi)](#full-version-works-on-redmi--xiaomi)
+2. [Requirements](#requirements)
+3. [Installation](#installation)
+4. [Project layout](#project-layout)
+5. [Where to run commands](#where-to-run-commands)
+6. [Quick start](#quick-start)
+7. [Command-line tools (reference)](#command-line-tools-reference)
+8. [Environment variables](#environment-variables)
+9. [Python library usage](#python-library-usage)
+10. [Login body password encoding](#login-body-password-encoding)
+11. [Signing headers (overview)](#signing-headers-overview)
+12. [Signing pipeline — `sign()`](#signing-pipeline) (includes [extended walkthrough](#signing-extended-walkthrough))
+13. [Device identifiers](#device-identifiers)
+14. [Login flow (simplified)](#login-flow-simplified)
+15. [Common error codes](#common-error-codes)
+16. [Tests](#tests)
+17. [`tools/` directory](#tools-directory)
+18. [`docs/` directory](#docs-directory)
+19. [Sensitive files & `.gitignore`](#sensitive-files--gitignore)
+20. [Related project: TikTokDeviceGenerator](#related-project-tiktokdevicegenerator)
+21. [Technical references](#technical-references)
+22. [Maintainer, company & contact](#maintainer-company--contact)
+23. [Support this project](#support-this-project)
 
 ---
 
@@ -729,6 +743,8 @@ See **`.gitignore`** for the current list.
 | **License** | MIT (see upstream repo). |
 
 This **tiktok_final** repo stays centered on **Python signing (`ttk/signing_engine`)**, **`login_client`**, and **documented** `device_register` flows. **TikTokDeviceGenerator** is a practical option when you want a **GUI + unidbg** path for bulk device creation; combine its JSON output with **`login_client --device …`** here if the profile shape is compatible (validate fields before production use).
+
+The **full production pipeline** (including the Redmi / Xiaomi build) is **[ttkit_clean on Strong Studio](https://strong-pnd.com/en/strong-studio/ttkit-clean-tiktok-automation)**.
 
 > Use any third-party tool only in compliance with applicable laws and TikTok’s Terms of Service.
 
